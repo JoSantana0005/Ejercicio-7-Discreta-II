@@ -56,7 +56,7 @@ def obtener_caminos(nodo):
     return camino[::-1] #Invertimos el camino
 
 
-#Uso
+#Grafo
 graph = {
     'A': {'vecinos': {'B': 30,'C': 34,'D': 29}, 'h': 50},
     'B': {'vecinos': {'E': 23,'F': 19}, 'h': 30},
@@ -91,4 +91,3 @@ try:
 
 except:
     print("Error: Ingrese un nodo válido")
-                
