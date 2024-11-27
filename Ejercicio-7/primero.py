@@ -33,6 +33,7 @@ def best_first_search(graph, inicio, final):
                 lista_openset.append(vecino_nodo)
 
     return None
+
 # Soluciones distintas
 try:
     resultado_a_m = a_search(graph, 'A', 'M')
